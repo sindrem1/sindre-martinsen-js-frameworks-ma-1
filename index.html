@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JQuery Image Gallery</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="style.css">
+    </head>
+	<body>
+        <div class='gallery'>
+            <h1>City Images:</h1>
+            <h4>Made with:<a href="https://www.jqueryscript.net/lightbox/Gallery-Lightbox-DNlightBox.html"> DNlightBox</a></h4>
+            <img class='js-lightBox' data-title='City 1'  data-group='group-1'  src="images/city1.jpg"  width="150" height="100" />
+            <img class='js-lightBox' data-title='City 2'  data-group='group-1'  src="images/city2.jpg"  width="150" height="100" />
+            <img class='js-lightBox' data-title='City 3'  data-group='group-1'  src="images/city3.jpg"  width="150" height="100" />
+            <img class='js-lightBox' data-title='City 4'  data-group='group-1'  src="images/city4.jpg"  width="150" height="100" />
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src='js/lightbox.js'></script>
+        <script>jQuery(document).ready(function(e){e.DNLightBox({speed:500})});</script>
+    </body>
+</html>
